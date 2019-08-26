@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8068BF312313D7670016ABB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF302313D7670016ABB2 /* AppDelegate.swift */; };
+		8068BF362313D7670016ABB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8068BF342313D7670016ABB2 /* Main.storyboard */; };
+		8068BF382313D7690016ABB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8068BF372313D7690016ABB2 /* Assets.xcassets */; };
+		8068BF3B2313D7690016ABB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8068BF392313D7690016ABB2 /* LaunchScreen.storyboard */; };
+		8068BF462313D7690016ABB2 /* HRPortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF452313D7690016ABB2 /* HRPortalTests.swift */; };
+		8068BF512313D7690016ABB2 /* HRPortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF502313D7690016ABB2 /* HRPortalUITests.swift */; };
+		8068BF602313D7B40016ABB2 /* EmplyeeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF5F2313D7B40016ABB2 /* EmplyeeList.swift */; };
+		8068BF622313E0190016ABB2 /* MailArrived.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF612313E0190016ABB2 /* MailArrived.swift */; };
+		8068BF642313E02B0016ABB2 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF632313E02B0016ABB2 /* AlertAction.swift */; };
+		8068BF662313E07B0016ABB2 /* CompanyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF652313E07B0016ABB2 /* CompanyProfile.swift */; };
+		8068BF6D2313E1570016ABB2 /* EmployeeList+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF6C2313E1570016ABB2 /* EmployeeList+extension.swift */; };
+		8068BF712313E1D00016ABB2 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF6F2313E1D00016ABB2 /* EmployeeCell.swift */; };
+		8068BF722313E1D00016ABB2 /* EmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8068BF702313E1D00016ABB2 /* EmployeeCell.xib */; };
+		8068BF752313EDE80016ABB2 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF732313EDE80016ABB2 /* NotificationCell.swift */; };
+		8068BF762313EDE80016ABB2 /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8068BF742313EDE80016ABB2 /* NotificationCell.xib */; };
+		8068BF782313F1A80016ABB2 /* Alert+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF772313F1A80016ABB2 /* Alert+Extention.swift */; };
+		8068BF7B2313F4430016ABB2 /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF792313F4430016ABB2 /* ActionCell.swift */; };
+		8068BF7C2313F4430016ABB2 /* ActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8068BF7A2313F4430016ABB2 /* ActionCell.xib */; };
+		8068BF7E2313F5410016ABB2 /* AlertAction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068BF7D2313F5410016ABB2 /* AlertAction+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8068BF422313D7690016ABB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8068BF252313D7670016ABB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8068BF2C2313D7670016ABB2;
+			remoteInfo = HRPortal;
+		};
+		8068BF4D2313D7690016ABB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8068BF252313D7670016ABB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8068BF2C2313D7670016ABB2;
+			remoteInfo = HRPortal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8068BF2D2313D7670016ABB2 /* HRPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8068BF302313D7670016ABB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8068BF352313D7670016ABB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8068BF372313D7690016ABB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8068BF3A2313D7690016ABB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8068BF3C2313D7690016ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8068BF412313D7690016ABB2 /* HRPortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRPortalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8068BF452313D7690016ABB2 /* HRPortalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRPortalTests.swift; sourceTree = "<group>"; };
+		8068BF472313D7690016ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8068BF4C2313D7690016ABB2 /* HRPortalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRPortalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8068BF502313D7690016ABB2 /* HRPortalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRPortalUITests.swift; sourceTree = "<group>"; };
+		8068BF522313D7690016ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8068BF5F2313D7B40016ABB2 /* EmplyeeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmplyeeList.swift; sourceTree = "<group>"; };
+		8068BF612313E0190016ABB2 /* MailArrived.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailArrived.swift; sourceTree = "<group>"; };
+		8068BF632313E02B0016ABB2 /* AlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		8068BF652313E07B0016ABB2 /* CompanyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyProfile.swift; sourceTree = "<group>"; };
+		8068BF6C2313E1570016ABB2 /* EmployeeList+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmployeeList+extension.swift"; sourceTree = "<group>"; };
+		8068BF6F2313E1D00016ABB2 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		8068BF702313E1D00016ABB2 /* EmployeeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeCell.xib; sourceTree = "<group>"; };
+		8068BF732313EDE80016ABB2 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		8068BF742313EDE80016ABB2 /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		8068BF772313F1A80016ABB2 /* Alert+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Extention.swift"; sourceTree = "<group>"; };
+		8068BF792313F4430016ABB2 /* ActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCell.swift; sourceTree = "<group>"; };
+		8068BF7A2313F4430016ABB2 /* ActionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionCell.xib; sourceTree = "<group>"; };
+		8068BF7D2313F5410016ABB2 /* AlertAction+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertAction+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8068BF2A2313D7670016ABB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068BF3E2313D7690016ABB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068BF492313D7690016ABB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8068BF242313D7670016ABB2 = {
+			isa = PBXGroup;
+			children = (
+				8068BF2F2313D7670016ABB2 /* HRPortal */,
+				8068BF442313D7690016ABB2 /* HRPortalTests */,
+				8068BF4F2313D7690016ABB2 /* HRPortalUITests */,
+				8068BF2E2313D7670016ABB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8068BF2E2313D7670016ABB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF2D2313D7670016ABB2 /* HRPortal.app */,
+				8068BF412313D7690016ABB2 /* HRPortalTests.xctest */,
+				8068BF4C2313D7690016ABB2 /* HRPortalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8068BF2F2313D7670016ABB2 /* HRPortal */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF6E2313E1AE0016ABB2 /* SubViews */,
+				8068BF6B2313E1370016ABB2 /* Extensions */,
+				8068BF5E2313D7960016ABB2 /* Controllers */,
+				8068BF302313D7670016ABB2 /* AppDelegate.swift */,
+				8068BF342313D7670016ABB2 /* Main.storyboard */,
+				8068BF372313D7690016ABB2 /* Assets.xcassets */,
+				8068BF392313D7690016ABB2 /* LaunchScreen.storyboard */,
+				8068BF3C2313D7690016ABB2 /* Info.plist */,
+			);
+			path = HRPortal;
+			sourceTree = "<group>";
+		};
+		8068BF442313D7690016ABB2 /* HRPortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF452313D7690016ABB2 /* HRPortalTests.swift */,
+				8068BF472313D7690016ABB2 /* Info.plist */,
+			);
+			path = HRPortalTests;
+			sourceTree = "<group>";
+		};
+		8068BF4F2313D7690016ABB2 /* HRPortalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF502313D7690016ABB2 /* HRPortalUITests.swift */,
+				8068BF522313D7690016ABB2 /* Info.plist */,
+			);
+			path = HRPortalUITests;
+			sourceTree = "<group>";
+		};
+		8068BF5E2313D7960016ABB2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF6A2313E0BD0016ABB2 /* Company */,
+				8068BF692313E0B00016ABB2 /* Alert */,
+				8068BF682313E0A00016ABB2 /* Mail Request */,
+				8068BF672313E08A0016ABB2 /* Employee */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8068BF672313E08A0016ABB2 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF5F2313D7B40016ABB2 /* EmplyeeList.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		8068BF682313E0A00016ABB2 /* Mail Request */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF612313E0190016ABB2 /* MailArrived.swift */,
+			);
+			path = "Mail Request";
+			sourceTree = "<group>";
+		};
+		8068BF692313E0B00016ABB2 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF632313E02B0016ABB2 /* AlertAction.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		8068BF6A2313E0BD0016ABB2 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF652313E07B0016ABB2 /* CompanyProfile.swift */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
+		8068BF6B2313E1370016ABB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF6C2313E1570016ABB2 /* EmployeeList+extension.swift */,
+				8068BF772313F1A80016ABB2 /* Alert+Extention.swift */,
+				8068BF7D2313F5410016ABB2 /* AlertAction+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8068BF6E2313E1AE0016ABB2 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				8068BF6F2313E1D00016ABB2 /* EmployeeCell.swift */,
+				8068BF702313E1D00016ABB2 /* EmployeeCell.xib */,
+				8068BF732313EDE80016ABB2 /* NotificationCell.swift */,
+				8068BF742313EDE80016ABB2 /* NotificationCell.xib */,
+				8068BF792313F4430016ABB2 /* ActionCell.swift */,
+				8068BF7A2313F4430016ABB2 /* ActionCell.xib */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8068BF2C2313D7670016ABB2 /* HRPortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8068BF552313D7690016ABB2 /* Build configuration list for PBXNativeTarget "HRPortal" */;
+			buildPhases = (
+				8068BF292313D7670016ABB2 /* Sources */,
+				8068BF2A2313D7670016ABB2 /* Frameworks */,
+				8068BF2B2313D7670016ABB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRPortal;
+			productName = HRPortal;
+			productReference = 8068BF2D2313D7670016ABB2 /* HRPortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8068BF402313D7690016ABB2 /* HRPortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8068BF582313D7690016ABB2 /* Build configuration list for PBXNativeTarget "HRPortalTests" */;
+			buildPhases = (
+				8068BF3D2313D7690016ABB2 /* Sources */,
+				8068BF3E2313D7690016ABB2 /* Frameworks */,
+				8068BF3F2313D7690016ABB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8068BF432313D7690016ABB2 /* PBXTargetDependency */,
+			);
+			name = HRPortalTests;
+			productName = HRPortalTests;
+			productReference = 8068BF412313D7690016ABB2 /* HRPortalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8068BF4B2313D7690016ABB2 /* HRPortalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8068BF5B2313D7690016ABB2 /* Build configuration list for PBXNativeTarget "HRPortalUITests" */;
+			buildPhases = (
+				8068BF482313D7690016ABB2 /* Sources */,
+				8068BF492313D7690016ABB2 /* Frameworks */,
+				8068BF4A2313D7690016ABB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8068BF4E2313D7690016ABB2 /* PBXTargetDependency */,
+			);
+			name = HRPortalUITests;
+			productName = HRPortalUITests;
+			productReference = 8068BF4C2313D7690016ABB2 /* HRPortalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8068BF252313D7670016ABB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mahendra Vishwakarma";
+				TargetAttributes = {
+					8068BF2C2313D7670016ABB2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8068BF402313D7690016ABB2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8068BF2C2313D7670016ABB2;
+					};
+					8068BF4B2313D7690016ABB2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8068BF2C2313D7670016ABB2;
+					};
+				};
+			};
+			buildConfigurationList = 8068BF282313D7670016ABB2 /* Build configuration list for PBXProject "HRPortal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8068BF242313D7670016ABB2;
+			productRefGroup = 8068BF2E2313D7670016ABB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8068BF2C2313D7670016ABB2 /* HRPortal */,
+				8068BF402313D7690016ABB2 /* HRPortalTests */,
+				8068BF4B2313D7690016ABB2 /* HRPortalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8068BF2B2313D7670016ABB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8068BF3B2313D7690016ABB2 /* LaunchScreen.storyboard in Resources */,
+				8068BF722313E1D00016ABB2 /* EmployeeCell.xib in Resources */,
+				8068BF382313D7690016ABB2 /* Assets.xcassets in Resources */,
+				8068BF762313EDE80016ABB2 /* NotificationCell.xib in Resources */,
+				8068BF362313D7670016ABB2 /* Main.storyboard in Resources */,
+				8068BF7C2313F4430016ABB2 /* ActionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068BF3F2313D7690016ABB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068BF4A2313D7690016ABB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8068BF292313D7670016ABB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8068BF642313E02B0016ABB2 /* AlertAction.swift in Sources */,
+				8068BF7B2313F4430016ABB2 /* ActionCell.swift in Sources */,
+				8068BF782313F1A80016ABB2 /* Alert+Extention.swift in Sources */,
+				8068BF752313EDE80016ABB2 /* NotificationCell.swift in Sources */,
+				8068BF662313E07B0016ABB2 /* CompanyProfile.swift in Sources */,
+				8068BF6D2313E1570016ABB2 /* EmployeeList+extension.swift in Sources */,
+				8068BF7E2313F5410016ABB2 /* AlertAction+Extension.swift in Sources */,
+				8068BF622313E0190016ABB2 /* MailArrived.swift in Sources */,
+				8068BF712313E1D00016ABB2 /* EmployeeCell.swift in Sources */,
+				8068BF602313D7B40016ABB2 /* EmplyeeList.swift in Sources */,
+				8068BF312313D7670016ABB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068BF3D2313D7690016ABB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8068BF462313D7690016ABB2 /* HRPortalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068BF482313D7690016ABB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8068BF512313D7690016ABB2 /* HRPortalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8068BF432313D7690016ABB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8068BF2C2313D7670016ABB2 /* HRPortal */;
+			targetProxy = 8068BF422313D7690016ABB2 /* PBXContainerItemProxy */;
+		};
+		8068BF4E2313D7690016ABB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8068BF2C2313D7670016ABB2 /* HRPortal */;
+			targetProxy = 8068BF4D2313D7690016ABB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8068BF342313D7670016ABB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8068BF352313D7670016ABB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8068BF392313D7690016ABB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8068BF3A2313D7690016ABB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8068BF532313D7690016ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8068BF542313D7690016ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8068BF562313D7690016ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HRPortal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mahendra.HRPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8068BF572313D7690016ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HRPortal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mahendra.HRPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8068BF592313D7690016ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HRPortalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mahendra.HRPortalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRPortal.app/HRPortal";
+			};
+			name = Debug;
+		};
+		8068BF5A2313D7690016ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HRPortalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mahendra.HRPortalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRPortal.app/HRPortal";
+			};
+			name = Release;
+		};
+		8068BF5C2313D7690016ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HRPortalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mahendra.HRPortalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HRPortal;
+			};
+			name = Debug;
+		};
+		8068BF5D2313D7690016ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HRPortalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mahendra.HRPortalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HRPortal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8068BF282313D7670016ABB2 /* Build configuration list for PBXProject "HRPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8068BF532313D7690016ABB2 /* Debug */,
+				8068BF542313D7690016ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8068BF552313D7690016ABB2 /* Build configuration list for PBXNativeTarget "HRPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8068BF562313D7690016ABB2 /* Debug */,
+				8068BF572313D7690016ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8068BF582313D7690016ABB2 /* Build configuration list for PBXNativeTarget "HRPortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8068BF592313D7690016ABB2 /* Debug */,
+				8068BF5A2313D7690016ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8068BF5B2313D7690016ABB2 /* Build configuration list for PBXNativeTarget "HRPortalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8068BF5C2313D7690016ABB2 /* Debug */,
+				8068BF5D2313D7690016ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8068BF252313D7670016ABB2 /* Project object */;
+}
